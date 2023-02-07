@@ -16,4 +16,9 @@
             endwhile;
         ?>
     </main>
+    
+    <aside>
+        aside
+    </aside>
+
     <?php get_footer();?>

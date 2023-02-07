@@ -12,7 +12,7 @@ Text Domain: puzzleshop
 body{
     background-color: chartreuse;
 }
-header,nav,main,footer{
+header,nav,main,aside,footer{
     max-width: 1200px;
     margin: 0 auto 20px;
     padding: 20px;
