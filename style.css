@@ -10,11 +10,32 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: puzzleshop
 */
 body{
-    background-color: violet;
+    background-color: chartreuse;
 }
 header,nav,main,footer{
     max-width: 1200px;
     margin: 0 auto 20px;
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+nav ul li a:hover{
+    background: rgba(255, 255, 255, 0.7);
 }
