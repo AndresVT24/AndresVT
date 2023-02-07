@@ -9,3 +9,12 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: puzzleshop
 */
+body{
+    background-color: violet;
+}
+header,nav,main,footer{
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
