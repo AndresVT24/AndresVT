@@ -11,6 +11,10 @@ Text Domain: puzzleshop
 */
 body{
     background-color: chartreuse;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr auto 1fr;
 }
 header,nav,main,aside,footer{
     max-width: 1200px;
