@@ -126,3 +126,14 @@ article.post{
 article.post:last-child{
 	margin-bottom: 0;
 }
+
+/* 404 not foundPage */
+
+body.error404 main{
+	text-align: center;
+}
+
+body.error404 main h1{
+	font-size: 1000%;
+	color: red;
+}
