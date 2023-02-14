@@ -30,6 +30,11 @@
                 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
                     <li>
                         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                            <?php
+                                if ( has_post_thumbnail() ) {
+                                    the_post_thumbnail();
+                                }
+                            ?>
                             <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                             <div class="entry-content">
                                 <p><strong><small><?php the_date(); ?></small></strong></p>
