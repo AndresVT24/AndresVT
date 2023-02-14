@@ -1,4 +1,5 @@
         <?php get_header();?>
+    <div>
         <main>front-page.php
             <?php
                 while ( have_posts() ) :
@@ -17,5 +18,6 @@
             ?>
         </main>
         <?php get_sidebar()?>
+    </div>
 
     <?php get_footer();?>
