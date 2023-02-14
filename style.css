@@ -63,7 +63,7 @@ body{
     height: 100vh;
 
 }
-header,nav,main,aside,footer{
+header,nav,main,aside,footer,section{
     max-width: 1200px;
     margin: 0 auto 20px;
     padding: 20px;
@@ -74,11 +74,11 @@ header,nav,main,aside,footer{
 	display:flex
 }
 
-main{
-	width:60vw
+.maquetarMainSection{
+	width:70%
 }
 aside{
-	width:30vw
+	width:30%
 }
 
 nav ul{
