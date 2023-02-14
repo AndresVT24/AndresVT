@@ -1,23 +1,26 @@
         <?php get_header();?>
     <div class="maquetarSidebar">
-        <main>front-page.php
+        <div class="maquetarMainSection">
+            <main>front-page.php
+                <?php
+                    while ( have_posts() ) :
+                    the_post();
+                ?>
+                <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                <?php the_title(sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>');?>
+                <div class="entry-content">
+                <?php the_content();
+                    the_excerpt() ;
+                ?>
+                </div><!-- entry-content -->
+                </article>
+                <?php
+                    endwhile;
+                ?>
+            </main>
+            <section>
+                <h3>Últimas entradas de XXXX</h3>
             <?php
-                while ( have_posts() ) :
-                the_post();
-            ?>
-            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-            <?php the_title(sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>');?>
-            <div class="entry-content">
-            <?php the_content();
-                the_excerpt() ;
-            ?>
-            </div><!-- entry-content -->
-            </article>
-            <?php
-                endwhile;
-            ?>
-            <?php
-                echo "<section><h3>Últimas entradas de XXXX</h3>";
             $args = array(
             'numberposts' => 3,
             'category' => 2,
@@ -35,9 +38,10 @@
             </li>
             <?php endforeach;
             wp_reset_postdata();
-            echo "</section>";
             ?>
-        </main>
+            </section>
+        </div>
+        
         <?php get_sidebar()?>
     </div>
 
