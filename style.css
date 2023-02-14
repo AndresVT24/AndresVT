@@ -70,6 +70,17 @@ header,nav,main,aside,footer{
     background: rgba(0, 0, 0, 0.5);
 }
 
+.maquetarSidebar{
+	display:flex
+}
+
+main{
+	width:60vw
+}
+aside{
+	width:30vw
+}
+
 nav ul{
     list-style: none;
     margin: 0;
