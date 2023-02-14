@@ -1,5 +1,5 @@
         <?php get_header();?>
-    <div>
+    <div class="maquetarSidebar">
         <main>front-page.php
             <?php
                 while ( have_posts() ) :
