@@ -19,11 +19,11 @@
                 ?>
             </main>
             <section>
-                <h3>Últimas entradas de XXXX</h3>
+                <h3>Últimas entradas de Andres</h3>
                 <?php
                 $args = array(
                 'numberposts' => 3,
-                'category' => 2,
+                //category' => 2,
                 );
                 $myposts = get_posts( $args );
                 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
