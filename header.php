@@ -9,7 +9,7 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <link rel="stylesheet" href="/path/to/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>libSlider/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/libSlider/src/css/jquery.bxslider.css">
     <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
     <?php wp_head() ?>
 </head>
