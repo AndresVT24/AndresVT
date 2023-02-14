@@ -71,12 +71,16 @@ header,nav,main,aside,footer,section{
 }
 
 .maquetarSidebar{
-	display:flex
+	display:flex;
+	gap: 10px;
+	margin-left: 10px;
+	margin-right:10px
 }
 
 .maquetarMainSection{
 	width:70%
 }
+
 aside{
 	width:30%
 }
