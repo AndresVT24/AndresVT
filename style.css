@@ -63,8 +63,12 @@ table {
 body{
     background-color: chartreuse;
     height: 100vh;
-
 }
+
+p{
+	line-height: 25px;
+}
+
 header,nav,main,aside,footer,section{
     max-width: 1200px;
     margin: 0 auto 20px;
@@ -108,7 +112,17 @@ nav ul li a:hover{
     background: rgba(255, 255, 255, 0.7);
 }
 
-article img{
+article.post img{
 	max-width: 100%;
 	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+article.post{
+	margin-bottom: 30px;
+}
+
+article.post:last-child{
+	margin-bottom: 0;
 }
