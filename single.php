@@ -1,5 +1,5 @@
 <?php get_header();?>
-    <main>page.php
+    <main>single.php
         <?php
             while ( have_posts() ) :
             the_post();
