@@ -1,4 +1,3 @@
-    <div>
         <?php get_header();?>
         <main>front-page.php
             <?php
@@ -18,6 +17,5 @@
             ?>
         </main>
         <?php get_sidebar()?>
-    </div>
 
     <?php get_footer();?>
