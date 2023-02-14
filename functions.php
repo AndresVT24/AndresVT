@@ -1,4 +1,5 @@
 <?php
+add_theme_support( 'post-thumbnails' );
 if ( ! function_exists( 'andresvt_register_nav_menu' ) ) {
 
     function andresvt_register_nav_menu(){
