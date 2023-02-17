@@ -7,4 +7,9 @@
     </footer>
     <?php wp_footer()?>
 </body>
+<script>
+    $(document).ready(function(){
+        $('.slider').bxSlider();
+    });
+</script>
 </html>
