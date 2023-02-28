@@ -63,13 +63,52 @@ table {
 body{
     background-image: url("https://mobimg.b-cdn.net/v3/fetch/6a/6ad5f32a4e8439c56dd7920e9dcb1f69.jpeg");
     background-repeat: no-repeat;
-	background-position:center;
-	background-attachment: fixed;
+    background-position:center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
+.description{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+nav ul li a{
+    display: block;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 5px 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+nav ul li a:hover{
+    background-color: #3e8e41;
+}
+
+nav ul li a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 h1 a{
-	font-size: x-large;
+	font-size: xx-large;
 	font-weight: 900;
 }
 
@@ -86,7 +125,7 @@ header,nav,main,aside,footer,section,#respond{
     max-width: 1200px;
     margin: 0 auto 20px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .maquetarSidebar{
@@ -110,24 +149,9 @@ nav ul{
     padding: 0;
 }
 
-nav ul li{
-    display: inline-block;
-    margin: 0 10px 0 0;
-}
-
-nav ul li a{
-    display: block;
-    padding: 5px;
-    background: rgba(255, 255, 255, 0.05);
-}
-
-nav ul li a:hover{
-    background: rgba(255, 255, 255, 0.7);
-}
-
 h3{
 	color: white;
-	font-size: large;
+	font-size: x-large;
 	font-weight: 500;
 	margin-bottom: 20px;
 	text-decoration: underline;
