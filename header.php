@@ -17,7 +17,7 @@
 <?php wp_body_open()?>
     
     <header id="header" role="banner">
-        <h2><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h2>
+        <h1><a href="<?php echo home_url(); ?>/"><?php bloginfo( 'name' ); ?></a></h1>
         <div class="description"><?php bloginfo( 'description' ); ?></div>
     </header>
 

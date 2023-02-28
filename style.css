@@ -61,7 +61,10 @@ table {
  */
 
 body{
-    background-color: chartreuse;
+    background-image: url("https://mobimg.b-cdn.net/v3/fetch/6a/6ad5f32a4e8439c56dd7920e9dcb1f69.jpeg");
+    background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
     height: 100vh;
 }
 
