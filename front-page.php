@@ -13,7 +13,7 @@
                     the_excerpt() ;
                 ?>
                 </div><!-- entry-content -->
-                </article>
+                </article><hr>
                 <?php
                     endwhile;
                 ?>
@@ -40,7 +40,7 @@
                                 <p><strong><small><?php the_date(); ?></small></strong></p>
                                 <p><?php the_excerpt(); ?></p>
                             </div><!-- entry-content -->
-                        </article>
+                        </article><hr>
                     </li>
                 <?php endforeach;
                 wp_reset_postdata();

@@ -16,7 +16,7 @@
             the_excerpt() ;
         ?>
         </div><!-- entry-content -->
-        </article>
+        </article><hr>
         <?php
             endwhile;
         ?>

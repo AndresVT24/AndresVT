@@ -15,7 +15,7 @@
         <?php the_content();
         ?>
         </div><!-- entry-content -->
-        </article>
+        </article><hr>
         <?php
             endwhile;
         ?>
